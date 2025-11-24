@@ -16,6 +16,7 @@ public static void main(String[] args) {
         switch (n) {
            case 1 -> System.out.println("hola a todos");
            case 2 ->CalcularMetodo();
+          
            case 3 ->TemperaturaGrados();
            default ->System.out.println("error");
         }
@@ -34,6 +35,7 @@ double precio=sc.nextDouble();sc.nextLine();
 double descuento=precio*10/100;
 double precioFinal=precio-descuento;
 System.out.printf("el precio final es %f ",precioFinal);
+
 sc.close();
 }
 public static void TemperaturaGrados(){

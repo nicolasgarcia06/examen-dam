@@ -10,18 +10,18 @@ public static void main(String[] args) {
         {3,2,8},
         {9,2,1}
     };
-    PintarMatriz()
+    PintarMatriz(A);
    int[][]C= MatrizMayor(A, B);
    System.out.println(C);
 }
-public static int[][] PintarMatriz(int[][]A){
+public static void PintarMatriz(int[][]A){
     for(int i=0;i<A.length;i++){
 for(int j=0;j<A[i].length;j++){
     System.out.print(A[i][j]+ " ");
 }
 System.out.println();
     }
-    return 
+    
 }
 public static int[][] MatrizMayor(int[][]A,int[][]B){
 int[][]C=new int[A.length][A[0].length];
